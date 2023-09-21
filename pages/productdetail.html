@@ -3,136 +3,417 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ProductDetail</title>
     <link rel="stylesheet" href="../styles/productdetail.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
-
     <header>
-        <div class="top__header">
-            <p>Sign up and get 290% off to your order <a href="">Sign Up Now</a></p>
-
-            <div class="close">
-                <img src="./images/close.svg" alt="">
-            </div>
-        </div>
-
+        <img src="../images/logo.svg" alt="logo">
         <nav>
-            <div class="logo">
-                <img src="./images/logo.svg" alt="">
-            </div>
-
             <ul>
-                <li>Shop</li>
+                <li>Shop <img src="../images/down arrow icon.svg" alt="down arrow" style="padding-top: 3px;"></li>
                 <li>On Sale</li>
-                <li>New Arrivals</li>
-                <li>brands</li>
+               <li>New Arrivals</li>
+               <li>Brands</li>
             </ul>
-
-            <div class="search__container">
-                <!-- <div class="search__icon">
-                    <img src="./images/search icon.png" alt="">
-                </div> -->
-                <i class=" fa fa-search"></i>
-
-                <input type="text" placeholder="Search for products">
-
-
-            </div>
-
-            <div class="icon__container">
-                <div class="cart">
-                    <img src="./images/cart.svg" alt="">
-                </div>
-
-                <div class="profile">
-                    <img src="./images/profile.svg" alt="">
-                </div>
-
-                <!-- <i class="fa fa-money"></i> -->
-            </div>
         </nav>
+        <div class="search">
+            <img src="../images/search icon.svg" alt="search">
+            <p>Search for products</p>
+        </div>
+        <div class="icon">
+            <img src="../images/cart icon.svg" alt="cart">
+            <img src="../images/profile icon.svg" alt="profile">
+        </div>
+        
     </header>
 
-    <section class="first__section">
-        <p> <span>Home</span> <i class=" fa fa-arrow"></i> </p>
+    <hr style="margin-bottom: 30px;">
 
-        <div class="row">
-            <div class="left">
-                <div class="half">
-                    <div class="img__One">
-                        <img src="./images/shirrt1.png" alt="">
+    <main>
+        <section class="head">
+            <p>Home</p>
+            <img src="../images/greater than.png" alt="arrow">
+            <p>Shop</p>
+            <img src="../images/greater than.png" alt="arrow">
+            <p>Men</p>
+            <img src="../images/greater than.png" alt="arrow">
+            <h4>T-shirts</h4>
+        </section>
+        <section class="first__section">
+    
+            <div class="row">
+                <div class="left">
+                    <div class="half">
+                        <div class="img__One">
+                            <img src="../images/shirt left1.png" alt="">
+                        </div>
+    
+                        <div class="img__One second__img">
+                            <img src="../images/shirt left2.png" alt="">
+                        </div>
+    
+                        <div class="img__One">
+                            <img src="../images/shirt left3.png" alt="">
+                        </div>
                     </div>
-
-                    <div class="img__One second__img">
-                        <img src="./images/shirt2.png" alt="">
-                    </div>
-
-                    <div class="img__One">
-                        <img src="./images/shirt3.png" alt="">
+                    <div class="full">
+                        <div class="img__two">
+                            <img src="../images/shirt right.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="full">
-                    <div class="img__two">
-                        <img src="./images/shirt4.png" alt="">
+    
+                <div class="right">
+    
+                    <h1>ONE LIFE GRAPHIC SHIRT</h1>
+    
+                    <div class="rating">
+    
+                        <i class="fa fa-star" style=" color: gold;"></i>
+                        <i class="fa fa-star" style=" color: gold;"></i>
+                        <i class="fa fa-star" style=" color: gold;"></i>
+                        <i class="fa fa-star" style=" color: gold;"></i>
+                        <i class="fa fa-star" style=" color: gold;"></i>
+                    </div>
+    
+                    <p> <span class="first">$260</span> <span class="second">$300</span> <span class="third">-40%</span></p>
+    
+                    <hr>
+    
+                   
+                    <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it
+                        offers superior comfort and style.</p>
+                        <p class="select-c">Select Colors</p>
+                    <div class="color">
+                        <div class="firstt"> <i class="fa fa-check" style="color: white;"></i></div>
+                        <div class="secondd"></div>
+                        <div class="thirdd"></div>
+                    </div>
+    
+                    <hr>
+    
+                    <p class="Choose-s">Choose sizes</p>
+                    <div class="sizes">
+                        <div class="small"><span>small</span></div>
+    
+                        <div class="medium"><span>medium</span></div>
+    
+                        <div class="large"><span>large</span></div>
+    
+                        <div class="xlarge"><span>X-Large</span></div>
+    
+                    </div>
+
+                    <hr style="margin-top: 15px;">
+                    <div class="addtocartContainer">
+                        <div class="quantity">
+                            <button>-  <span>1</span>+</button>
+                        </div>
+                        <button class="btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
+        </section>
+    
+    </main>
 
-            <div class="right">
-
-                <h1>ONE LIFE GRAPHIC SHIRT</h1>
-
-                <div class="rating">
-
-                    <i class="fa fa-star" style=" color: gold;"></i>
-                    <i class="fa fa-star" style=" color: gold;"></i>
-                    <i class="fa fa-star" style=" color: gold;"></i>
-                    <i class="fa fa-star" style=" color: gold;"></i>
-                    <i class="fa fa-star" style=" color: gold;"></i>
-                </div>
-
-                <p> <span class="first">$260</span> <span class="second">$300</span> <span class="third">-40%</span></p>
-
-                <hr>
-
-                <p class="select-c">Select Colors</p>
-                <p>This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it
-                    offers superior comfort and style.</p>
-                <div class="color">
-                    <div class="firstt"> <i class="fa fa-check" style="color: white;"></i></div>
-                    <div class="secondd"></div>
-                    <div class="thirdd"></div>
-                </div>
-
-                <hr>
-
-                <p class="Choose-s">Choose sizes</p>
-                <div class="sizes">
-                    <div class="small"><span>small</span></div>
-
-                    <div class="medium"><span>medium</span></div>
-
-                    <div class="large"><span>large</span></div>
-
-                    <div class="xlarge"><span>X-Large</span></div>
-
-                </div>
-                <div class="addtocartContainer">
-                    <div class="count">
-                        <span>-</span>
-                        <span>1</span>
-                        <span>+</span>
-                    </div>
-                    <button class="btn">Add to Cart</button>
-                </div>
+    <div class="feedback">
+        <div class="category">
+            <div class="Product_Details">
+                <p>Product Details</p>
+            </div>
+            <div class="R_R">
+               <p>Rating & Reviews</p>
+            </div>
+            <div class="FAQs">
+                <p>FAQs</p>
             </div>
         </div>
-    </section>
+        <div class="review">
+            <div class="all_reviews">
+                <p>All Reviews <span>(451)</span></p>
+            </div>
+            <div class="more">
+                <img src="../images/hash.png" alt="hash">
+                <button class="btn1">Latest <img src="../images/down arrow icon.svg" alt="down"></button>
+                <button>Write a Review</button>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="satisfied">
+        <div class="left1">
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/halfstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Samantha D. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so <br> comfortable. As a fellow designer, I appreciate the attention to detail. It's <br>become my favorite go-to shirt."</p>
+                <h3>Posted on August 14, 2023</h3>
+            </div>
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/halfstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Ethan R. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"This t-shirt is a must-have for anyone who appreciates good design. The <br>minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can <br>see the designer's touch in every aspect of this shirt."</p>
+                <h3>Posted on August 16, 2023</h3>
+            </div>
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Liam K. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the <br>design speaks volumes about the designer's skill. It's like wearing a piece <br>of art that reflects my passion for both design and fashion."</p>
+                <h3>Posted on August 18, 2023</h3>
+            </div>
+        </div>
+        <div class="right1">
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Alex M. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print <br>quality is top-notch. Being a UI/UX designer myself, I'm quite picky about <br>aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+                <h3>Posted on August 15, 2023</h3>
+            </div>
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Olivia P. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not <br>only represents those principles but also feels great to wear. It's evident <br>that the designer poured their creativity into making this t-shirt stand out."</p>
+                <h3>Posted on August 17, 2023</h3>
+            </div>
+            <div class="customers">
+                <div class="star_">
+                    <div class="stars">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/fullstar.png" alt="star">
+                        <img src="../images/halfstar.png" alt="star">
+                    </div>
+                    <div class="more1">
+                        <img src="../images/more.png" alt="more">
+                    </div>
+                </div>
+         
+                <br>
+                <br>
+                <h1>Ava H. <span><img src="../images/verified.png" alt="verified"></span></h1>
+                <p>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. <br>The intricate details and thoughtful layout of the design make this shirt a <br>conversation starter."</p>
+                <h3>Posted on August 19, 2023</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="load">Load More Reviews</button>
+
+    <div class="also_like">
+        <h1>you might also like</h1>
+        <div class="new">
+            <div>
+                <img src="../images/also_like1.png" alt="t-shirt">
+                <h1>T-SHIRT WITH TAPE DETAILS</h1>
+                <div class="rating">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/fullstar.png" alt="star">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/fullstar.png" alt="star">
+                    <img src="../images/halfstar.png" alt="star">
+                    <p>4.5/5</p>
+                </div>
+        
+                <div class="price">
+                    <h2>$212</h2>
+                    <h2 style="color: rgba(0, 0, 0, 0.40); text-decoration: line-through;">$242</h2>
+                    <button>-20%</button>
+                </div>
+                   
+                
+                    
+            </div>   
+
+            <div>
+                <img src="../images/also_like2.png" alt="trouser">
+                <h1>SKINNY FIT JEANS</h1>
+                <div class="rating">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/fullstar.png" alt="star">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/halfstar.png" alt="star">
+                    <p>3.5/5</p>
+                </div>
+                <h2>$145</h2>
+               
+
+                      
+
+            </div>
+            <div>
+                <img src="../images/also_like3.png" alt="shirt">
+                <h1>CHECKERED SHIRT</h1>
+                <div class="rating">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/fullstar.png" alt="star">
+                    <img src="../images/fullstar.png" alt="star">  
+                    <img src="../images/fullstar.png" alt="star">
+                    <img src="../images/halfstar.png" alt="star">
+                    <p>4.5/5</p>
+                </div>
+                <h2>$180</h2>
+                      
+
+            </div>
+            <div>
+                <img src="../images/also_like4.png" alt="polo">
+                <h1>SLEEVE STRIPED T-SHIRT</h1>
+               <div class="rating">
+                <img src="../images/fullstar.png" alt="star">  
+                <img src="../images/fullstar.png" alt="star">
+                <img src="../images/fullstar.png" alt="star">  
+                <img src="../images/fullstar.png" alt="star">
+                <img src="../images/halfstar.png" alt="star">
+                <p>4.5/5</p>
+                      
+               </div>
+               <div class="price">
+                    <h2>$120</h2>
+                    <h2 style="color: rgba(0, 0, 0, 0.40); text-decoration: line-through;">$160</h2>
+                    <button>-30%</button>
+               </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="black_div">
+        <div class="words">
+            <p>STAY UPTO DATE ABOUT <br> OUR LATEST OFFERS</p>
+        </div>
+        <div class="subscribe">
+            <div class="email">
+                <img src="/images/envelope icon.png" alt="mail">
+                <p>Enter your email address</p>
+            </div>
+            <button>
+                Subscribe to Newsletter
+            </button>
+
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="Shop">
+        <img src="../images/logo.svg" alt="logo">
+        <p>We have clothes that suits your style and <br>which you’re proud to wear. From <br>women to men.</p>
+        <img src="../images/Social.png" alt="">
+    </div>
+    
+    <div class="company">
+        <h1>COMPANY</h1>
+        <p>About</p>
+        <p>Features</p>
+        <p>Works</p>
+        <p>Career</p>
+    </div>
+    <div class="company">
+        <h1>HELP</h1>
+        <p>Customer Support</p>
+        <p>Delivery Details</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+    </div>
+    <div class="company">
+        <h1>FAQ</h1>
+        <p>Account</p>
+        <p>Manage Deliveries</p>
+        <p>Orders</p>
+        <p>Payments</p>
+    </div>
+    <div class="company">
+        <h1>RESOURCES</h1>
+        <p>Free Ebooks</p>
+        <p>Development Tutorial</p>
+        <p>How to - Blog</p>
+        <p>Youtube Playlist</p>
+    </div>
+</footer>
+
+<hr style="margin-top: 50px;">
+<div class="last_div">
+    <div class="left">
+        <p>© 2000-2021, All rights reserved</p>
+    </div>
+    <div class="right">
+        <img src="../images/Badge (1).png" alt="1"><img src="../images/Badge (2).png" alt="2"><img src="../images/Badge (3).png" alt="3"><img src="../images/Badge (4).png" alt="4"><img src="../images/Badge (5).png" alt="5">
+
+    </div>
+</div>
 
 </body>
-    
-
 </html>
