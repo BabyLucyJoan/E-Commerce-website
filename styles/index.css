@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    border: 1px solid red;
+
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+header nav{
+    text-align: center;
+    width: 35%;
+
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+header nav ul li{
+    margin-left: 10px;
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: large;
+    font-family: Satoshi;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+header .search{
+    display: flex;
+    background-color: #F0F0F0;
+    width: 45%;
+    height: 40px;
+    padding-left: 20px;
+    align-items: center;
+    
+    
+
+}
+
+header .search img{
+    width: 20px;
+    
+}
+
+header .search p{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-left: 10px;
+
+}
+
+header .icon{
+    justify-content: space-between;
+}
+
+main{
+    background-image: url(../images/home\ bgi.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+section.left{
+    width: 50%;
+    padding: 70px 50px;
+}
+
+.text{
+    padding-bottom: 30px;
+
+}
+
+.text h1{
+    color: #000;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 30px;
+}
+
+.text p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.shop_now button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.increase{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.area{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+section.right{
+    position: relative;
+}
+
+.star_big{
+    position: absolute;
+    top: 100px;
+    left: 480px;
+
+}
+
+.star_small{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 122px;
+    justify-content: center;
+
+
+}
+
+footer img{
+    margin:40px 50px;
+    justify-content: center;
+    
+}
+
+.new_arrivals{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.new_arrivals h1{
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.new{
+    display: flex;
+    justify-content: space-between;
+}
+
+.new h1{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+    text-align: left;
+
+}
+
+
+.rating{
+    display: flex;
+    
+    
+}
+
+.rating p{
+    padding-left: 15px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+    
+}
+
+.price button{
+    border-radius: 20px;
+    background: rgba(255, 51, 51, 0.10);
+    color: #F33;
+    display: flex;
+    width: 58px;
+    padding: 6px 14px;
+    border: none;
+
+}
+
+.view{
+    border: 1px solid rgba(127, 116, 116, 0.187);
+    padding: 15px 70px;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: white;
+} 
+
+.top_selling{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+
+}
+
+.top_selling h1{
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h1{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+    text-align: left;
+
+}
+
+.browse{
+    border-radius: 40px;
+    background: #F0F0F0;
+    width: auto;
+    margin: 0 50px;
+}
+
+.browse h1{
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+ 
+.dress_top{
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex; 
+    
+}
+
+
+.casual{
+    position: relative;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.casual h2{
+    position: absolute;
+    bottom: 210px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+.formal{
+    position: relative;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+.formal h2{
+    position: absolute;
+    bottom: 210px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+
+.dress_bottom{
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 50px;
+    display: flex; 
+    
+}
+
+
+.party{
+    position: relative;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.party h2{
+    position: absolute;
+    bottom: 210px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+.gym{
+    position: relative;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+.gym h2{
+    position: absolute;
+    bottom: 210px;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+.happy_customers{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1200;
+    text-transform: uppercase;
+    margin-top: 80px;
+        
+}
+
+.happy_customers h1{
+    margin-bottom: 50px;
+}
+
+.happy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    text-align: center;
+
+}
+.review{
+    display: flex;
+width: 350px;
+height: 300px;
+padding: 28px 32px;
+align-items: flex-start;
+align-content: flex-start;
+gap: 24px 342px;
+flex-shrink: 0;
+flex-wrap: wrap;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+
+}
+
+.review p{
+    color: rgba(0, 0, 0, 0.60);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+.reviewer{
+    display: flex;
+
+}
+
+.people{
+    display: flex;
+}
+
+.black_div{
+    display: flex;
+    width: 1240px;
+    padding: 36px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #000;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.black_div .words p{
+    width: 551px;
+    height: 94px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Integral CF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; 
+}
+
+.email{
+    display: flex;
+    justify-content: flex-start;
+    width: 349px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+}
+
+.subscribe button{
+    display: flex;
+    width: 349px;
+    padding: 17px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+    margin-top: 10px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.last_div .left{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.last_div .right{
+    margin-right: 50px;
+}
